@@ -1,0 +1,12 @@
+{
+  "name": "ensure-px-license",
+  "version": "1.0.0",
+  "description": "Adds the Predix Design System license header to files.",
+  "main": "index.js",
+  "author": "GE Digital",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "plugin-error": "^1.0.1",
+    "through2": "^2.0.3"
+  }
+}
