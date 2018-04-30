@@ -49,7 +49,7 @@ function ensureLicense() {
  * @return {boolean}
  */
 function hasLicense(source, max) {
-  max = typeof max === 'number' ? max : 500;
+  max = typeof max === 'number' ? max : 100;
   const lines = source.split('\n');
   for (let i=0; i<lines.length && i<=max; i++) {
     if (lines[i].indexOf(licenseAttribution) > -1) {
